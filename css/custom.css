@@ -97,3 +97,18 @@ html, body{
     width: fit-content;
     padding: 10px;
 }
+
+.link:link{
+    color: #a62323;
+}
+.link:visited{
+    color: #a62323;
+}
+.link:active{
+    color: #a62323;
+}
+
+
+.link:hover{
+    color: #ee2331;
+}

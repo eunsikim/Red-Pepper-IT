@@ -15,7 +15,7 @@
   </head>
   <body>
     <header class="navbar navbar-expand-lg navbar-dark bd-navbar fixed-top">
-        <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
+        <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" id="navbar-example2">
             <a class="navbar-brand" href="#home">
                 <img src="./img/redppr.svg" width="36">
                 <span class="font-Montserrat f-weight-300">Red Pepper IT</span>
@@ -30,10 +30,10 @@
                             <a class="nav-link active font-Montserrat" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active font-Montserrat" aria-current="page" href="#sectionOne">About the Project</a>
+                            <a class="nav-link font-Montserrat" aria-current="page" href="#sectionOne">About the Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active font-Montserrat" aria-current="page" href="#sectionTwo">Team Members</a>
+                            <a class="nav-link font-Montserrat" aria-current="page" href="#sectionTwo">Team Members</a>
                         </li>
                         <li class="nav-item py-1 col-12 col-lg-auto">
                             <div class="vr d-non d-lg-flex h-100 mx-lg-2 text-white"></div>
@@ -48,102 +48,106 @@
         </nav>
     </header>
 
-    <main class="fill">
+    <main class="fill p-0">
 
-        <div class="h-100 d-flex justify-content-center align-items-center" id="home">
-            <div class="container-xxl" id="test">
-                <div class="col-md-8 mx-auto text-start">
-                    <img class="mb-3" src="./img/redppr.svg" width="200">
-                    <div class="bgOpacity">
-                        <h1 class="font-Montserrat f-weight-700 em-2h color-white">Red Pepper IT</h1>
-                        <p class="font-Montserrat f-weight-300 em-1h color-white">an open source IT Web Management Application</p>
-                        <a class="color-white" href="https://github.com/eunsikim/gtri_ITWMA" target="_blank" rel="noopener noreferrer"><i class="bi bi-github em-3"></i></a>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light rounded-2 fill" tabindex="0">
+            <div class="h-100 d-flex justify-content-center align-items-center" id="home">
+                <div class="container-xxl" id="test">
+                    <div class="col-md-8 mx-auto text-start">
+                        <img class="mb-3" src="./img/redppr.svg" width="200">
+                        <div class="bgOpacity">
+                            <h1 class="font-Montserrat f-weight-700 em-2h color-white">Red Pepper IT</h1>
+                            <p class="font-Montserrat f-weight-300 em-1h color-white">an open source IT Web Management Application</p>
+                            <a class="color-white" href="https://github.com/eunsikim/gtri_ITWMA" target="_blank" rel="noopener noreferrer"><i class="bi bi-github em-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="d-flex justify-content-center align-items-center" id="sectionOne">
+                <div class="container-xxl">
+                    <div class="col-md-8 mx-auto text-start">
+                        <h1 class="font-Montserrat f-weight-700 em-2h color-white mb-3">About our project</h1>
+                        <p class="font-Montserrat f-weight-400 em-1h color-white">The conception of this project arose from the lack of IT management tools that can address all the needs of an IT department. Furthermore, with the currently available tools, they are either poorly designed or have a high licensing cost.</p>
+                        <p class="font-Montserrat f-weight-400 em-1h color-white">This project seeks to solve the need for such applications by building an open-source application that can be deployed internally by any business seeking a management tool for its IT department.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="d-flex justify-content-center align-items-center" id="sectionTwo">
+                <div class="container-fluid"> 
+                    <div class="col-md-10 mx-auto text-start">
+                        <h1 class="font-Montserrat f-weight-700 em-2h color-white mb-3">Team Members</h1>
+    
+                        <div class="row row-cols-1 row-cols-md-5 g-5">
+                            <div class="col">
+                                <div class="card col" style="width: 18rem;">
+                                    <img src="./img/eunsik.png" class="card-img-top" alt="..."> 
+                                    <div class="card-body">
+                                        <h5 class="card-title">Eun Sik Kim</h5>
+                                        <p class="card-text">Team Lead & Back end Developer</p>
+                                        <a class="col em-2 me-3 link" href="https://github.com/eunsikim/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                        <a class="col em-2 link" href="https://www.linkedin.com/in/kimeunsik/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a><br>
+                                        <a class="link" href="https://www.kimeunsik.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-link-45deg"></i> www.kimeunsik.com</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col">
+                                <div class="card col" style="width: 18rem;">
+                                    <img src="./img/redppr.svg" class="card-img-top" alt="..."> 
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bukky Adekunle</h5>
+                                        <p class="card-text">Back end Developer & Database Designer</p>
+                                        <a class="col em-2 me-3 link" href="https://github.com/bukky1707/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                        <a class="col em-2 link" href="https://www.linkedin.com/in/bukkyadekunle/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col">
+                                <div class="card col" style="width: 18rem;">
+                                    <img src="./img/redppr.svg" class="card-img-top" alt="..."> 
+                                    <div class="card-body">
+                                        <h5 class="card-title">Neha Dedani</h5>
+                                        <p class="card-text">Front end Developer</p>
+                                        <a class="col em-2 me-3 link" href="https://github.com/nehadedani/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                        <a class="col em-2 link" href="https://www.linkedin.com/in/neha-dedani/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col">
+                                <div class="card col" style="width: 18rem;">
+                                    <img src="./img/redppr.svg" class="card-img-top" alt="..."> 
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ivana George</h5>
+                                        <p class="card-text">Front end Developer</p>
+                                        <a class="col em-2 me-3 link" href="https://github.com/ivanageorge/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                        <a class="col em-2 link" href="#" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col">
+                                <div class="card col" style="width: 18rem;">
+                                    <img src="./img/redppr.svg" class="card-img-top" alt="..."> 
+                                    <div class="card-body">
+                                        <h5 class="card-title">Catlin Washington</h5>
+                                        <p class="card-text">Front end Developer</p>
+                                        <a class="col em-2 me-3 link" href="https://github.com/Catlinw/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                        <a class="col em-2 link" href="https://www.linkedin.com/in/catlinwashington/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="d-flex justify-content-center align-items-center" id="sectionOne">
-            <div class="container-xxl">
-                <div class="col-md-8 mx-auto text-start">
-                    <h1 class="font-Montserrat f-weight-700 em-2h color-white mb-3">About our project</h1>
-                    <p class="font-Montserrat f-weight-400 em-1h color-white">The conception of this project arose from the lack of IT management tools that can address all the needs of an IT department. Furthermore, with the currently available tools, they are either poorly designed or have a high licensing cost.</p>
-                    <p class="font-Montserrat f-weight-400 em-1h color-white">This project seeks to solve the need for such applications by building an open-source application that can be deployed internally by any business seeking a management tool for its IT department.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-center align-items-center" id="sectionTwo">
-            <div class="container-fluid"> 
-                <div class="col-md-10 mx-auto text-start">
-                    <h1 class="font-Montserrat f-weight-700 em-2h color-white mb-3">Team Members</h1>
-
-                    <div class="row row-cols-1 row-cols-md-5 g-5">
-                        <div class="col">
-                            <div class="card col" style="width: 18rem;">
-                                <img src="./img/eunsik.png" class="card-img-top" alt="..."> 
-                                <div class="card-body">
-                                    <h5 class="card-title">Eun Sik Kim</h5>
-                                    <p class="card-text">Team Lead & Back end Developer</p>
-                                    <a class="col em-2 me-3" href="https://github.com/eunsikim/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                                    <a class="col em-2" href="https://www.linkedin.com/in/kimeunsik/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a><br>
-                                    <a href="https://www.kimeunsik.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-link-45deg"></i> www.kimeunsik.com</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card col" style="width: 18rem;">
-                                <img src="./img/redppr.svg" class="card-img-top" alt="..."> 
-                                <div class="card-body">
-                                    <h5 class="card-title">Bukky Adekunle</h5>
-                                    <p class="card-text">Back end Developer & Database Designer</p>
-                                    <a class="col em-2 me-3" href="https://github.com/bukky1707/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                                    <a class="col em-2" href="https://www.linkedin.com/in/bukkyadekunle/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card col" style="width: 18rem;">
-                                <img src="./img/redppr.svg" class="card-img-top" alt="..."> 
-                                <div class="card-body">
-                                    <h5 class="card-title">Neha Dedani</h5>
-                                    <p class="card-text">Front end Developer</p>
-                                    <a class="col em-2 me-3" href="https://github.com/nehadedani/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                                    <a class="col em-2" href="https://www.linkedin.com/in/neha-dedani/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card col" style="width: 18rem;">
-                                <img src="./img/redppr.svg" class="card-img-top" alt="..."> 
-                                <div class="card-body">
-                                    <h5 class="card-title">Ivana George</h5>
-                                    <p class="card-text">Front end Developer</p>
-                                    <a class="col em-2 me-3" href="https://github.com/ivanageorge/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                                    <a class="col em-2" href="#" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card col" style="width: 18rem;">
-                                <img src="./img/redppr.svg" class="card-img-top" alt="..."> 
-                                <div class="card-body">
-                                    <h5 class="card-title">Catlin Washington</h5>
-                                    <p class="card-text">Front end Developer</p>
-                                    <a class="col em-2 me-3" href="https://github.com/Catlinw/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-                                    <a class="col em-2" href="https://www.linkedin.com/in/catlinwashington/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
     </main>
   </body>
